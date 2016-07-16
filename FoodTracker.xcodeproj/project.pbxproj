@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		AF5AC3CC1D30A05100EF3673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5AC3CB1D30A05100EF3673 /* AppDelegate.swift */; };
-		AF5AC3CE1D30A05100EF3673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5AC3CD1D30A05100EF3673 /* ViewController.swift */; };
+		AF5AC3CE1D30A05100EF3673 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5AC3CD1D30A05100EF3673 /* MealViewController.swift */; };
 		AF5AC3D11D30A05100EF3673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5AC3CF1D30A05100EF3673 /* Main.storyboard */; };
 		AF5AC3D31D30A05100EF3673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5AC3D21D30A05100EF3673 /* Assets.xcassets */; };
 		AF5AC3D61D30A05100EF3673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5AC3D41D30A05100EF3673 /* LaunchScreen.storyboard */; };
 		AF5AC3E11D30A05100EF3673 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5AC3E01D30A05100EF3673 /* FoodTrackerTests.swift */; };
 		AFD784101D3790FE00E95994 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD7840F1D3790FE00E95994 /* RatingControl.swift */; };
+		AFFD2C9C1D39DC5300C7796A /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFD2C9B1D39DC5300C7796A /* Meal.swift */; };
+		AFFD2C9D1D39DC5300C7796A /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFD2C9B1D39DC5300C7796A /* Meal.swift */; };
+		AFFD2C9F1D39E10C00C7796A /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFD2C9E1D39E10C00C7796A /* MealTableViewCell.swift */; };
+		AFFD2CA11D39EED100C7796A /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFD2CA01D39EED100C7796A /* MealTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +33,7 @@
 /* Begin PBXFileReference section */
 		AF5AC3C81D30A05100EF3673 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5AC3CB1D30A05100EF3673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF5AC3CD1D30A05100EF3673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF5AC3CD1D30A05100EF3673 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		AF5AC3D01D30A05100EF3673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF5AC3D21D30A05100EF3673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF5AC3D51D30A05100EF3673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +42,9 @@
 		AF5AC3E01D30A05100EF3673 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		AF5AC3E21D30A05100EF3673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFD7840F1D3790FE00E95994 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		AFFD2C9B1D39DC5300C7796A /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		AFFD2C9E1D39E10C00C7796A /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		AFFD2CA01D39EED100C7796A /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +86,13 @@
 		AF5AC3CA1D30A05100EF3673 /* FoodTracker */ = {
 			isa = PBXGroup;
 			children = (
+				AFFD2C9B1D39DC5300C7796A /* Meal.swift */,
 				AF5AC3CB1D30A05100EF3673 /* AppDelegate.swift */,
-				AF5AC3CD1D30A05100EF3673 /* ViewController.swift */,
+				AF5AC3CD1D30A05100EF3673 /* MealViewController.swift */,
 				AF5AC3CF1D30A05100EF3673 /* Main.storyboard */,
+				AFFD2C9E1D39E10C00C7796A /* MealTableViewCell.swift */,
 				AF5AC3D21D30A05100EF3673 /* Assets.xcassets */,
+				AFFD2CA01D39EED100C7796A /* MealTableViewController.swift */,
 				AF5AC3D41D30A05100EF3673 /* LaunchScreen.storyboard */,
 				AF5AC3D71D30A05100EF3673 /* Info.plist */,
 				AFD7840F1D3790FE00E95994 /* RatingControl.swift */,
@@ -202,9 +212,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF5AC3CE1D30A05100EF3673 /* ViewController.swift in Sources */,
+				AFFD2C9C1D39DC5300C7796A /* Meal.swift in Sources */,
+				AF5AC3CE1D30A05100EF3673 /* MealViewController.swift in Sources */,
 				AFD784101D3790FE00E95994 /* RatingControl.swift in Sources */,
 				AF5AC3CC1D30A05100EF3673 /* AppDelegate.swift in Sources */,
+				AFFD2CA11D39EED100C7796A /* MealTableViewController.swift in Sources */,
+				AFFD2C9F1D39E10C00C7796A /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFFD2C9D1D39DC5300C7796A /* Meal.swift in Sources */,
 				AF5AC3E11D30A05100EF3673 /* FoodTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
